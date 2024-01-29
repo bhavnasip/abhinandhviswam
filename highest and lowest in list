@@ -1,0 +1,10 @@
+l=list(input("enter the number:"))
+print(l)
+mx1=max(l)
+print("the highest value in the list is",mx1)
+length=len(l)
+min_ele=l[0]
+for i in range(1,length):
+    if l[i]<min_ele:
+        min_ele=l[i]
+print("the lowest value is ",min_ele)
