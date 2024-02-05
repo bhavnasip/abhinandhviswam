@@ -1,0 +1,10 @@
+s=0
+e=int(input("enter the number"))
+p=e
+while p>0:
+    s=s+(p%10)**3
+    p=p//10
+print("sum of cube of digits",s)
+if s==e:
+    print(e," is an armstrong number")
+    
