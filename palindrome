@@ -1,0 +1,11 @@
+p=int(input("enter the number"))
+rev=0
+t=p
+while t>0:
+    rev=rev*10+(t%10)
+    t=t//10
+print("the reverse of the number u want to be reversed is the reversed number:",rev)
+if p==rev:
+    print(p,"is a palindrome number")
+else:
+    print(p,"is not a palindrome number")
