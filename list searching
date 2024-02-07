@@ -1,0 +1,11 @@
+l=eval(input("enter the number of names:"))
+lst=[]
+p,v=0,0
+for i in range (0,l):
+    lst.append(input("enter the names:"))
+search=input("enter the names to be searched:")
+for i in lst:
+    v+=1
+    if i==search:
+        p=v
+print(search,"    is found in position    ",p)
